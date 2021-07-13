@@ -1,0 +1,11 @@
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALClient\bin\Debug\Projet.DALClient.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALClient\bin\Debug\Projet.DALClient.pdb
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALClient\bin\Debug\Projet.DALGlobal.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALClient\bin\Debug\ToolBox.ADO.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALClient\bin\Debug\Projet.DALGlobal.pdb
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALClient\bin\Debug\ToolBox.ADO.pdb
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALClient\obj\Debug\Projet.DALClient.csprojAssemblyReference.cache
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALClient\obj\Debug\Projet.DALClient.csproj.CopyComplete
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALClient\obj\Debug\Projet.DALClient.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALClient\obj\Debug\Projet.DALClient.pdb
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALClient\obj\Debug\Projet.DALClient.csproj.CoreCompileInputs.cache

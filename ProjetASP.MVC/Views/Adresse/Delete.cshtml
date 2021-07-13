@@ -1,0 +1,81 @@
+﻿@model ProjetASP.MVC.Models.AdresseDetails
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>AdresseDetails</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Num)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Num)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pays)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pays)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CGLatitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CGLatitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CGLongitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CGLongitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ville)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ville)
+        </dd>
+        
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

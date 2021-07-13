@@ -1,0 +1,10 @@
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database\bin\Debug\Database.dacpac
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database\bin\Debug\Database.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database\bin\Debug\Database.pdb
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database\obj\Debug\Database.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database\obj\Debug\Database.pdb
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database\obj\Debug\Database.sqlprojAssemblyReference.cache
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database\obj\Debug\Model.xml
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database\obj\Debug\refactor.xml
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database\obj\Debug\postdeploy.sql
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database\obj\Debug\predeploy.sql

@@ -1,0 +1,53 @@
+﻿@using ProjetASP.MVC.Infrasctucture
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - OneClick</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <div class="container">
+            <a href="../" class="navbar-brand">One Click </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink(" Accueil ", "Index", "Home")</li>
+
+                    @if (SessionManager.UtilisateurDetails is null)
+                    {
+                        <li>@Html.ActionLink(" S'enregistrer ", "Register", "Auth")</li>
+                        <li>@Html.ActionLink(" S'authentifier ", "Login", "Auth")</li>
+                    }
+                    else
+                    {
+                        
+                        <li>@Html.ActionLink($"Se déconnecter ({SessionManager.UtilisateurDetails.Nom} {SessionManager.UtilisateurDetails.Prenom})", "Logout", "Auth")</li>
+                    }
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+  <br style="clear:both" />
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - OneClick</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

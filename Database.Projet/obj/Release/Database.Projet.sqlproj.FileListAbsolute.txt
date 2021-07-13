@@ -1,0 +1,9 @@
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\bin\Release\Database.Projet.dacpac
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\bin\Release\Database.Projet.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\bin\Release\Database.Projet.pdb
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\obj\Release\Model.xml
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\obj\Release\refactor.xml
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\obj\Release\postdeploy.sql
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\obj\Release\predeploy.sql
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\obj\Release\Database.Projet.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\obj\Release\Database.Projet.pdb

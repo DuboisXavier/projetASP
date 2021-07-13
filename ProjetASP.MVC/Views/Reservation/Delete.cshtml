@@ -1,0 +1,64 @@
+﻿@model ProjetASP.MVC.Models.ReservationDetails
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>ReservationDetails</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateDebut)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateDebut)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateFin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateFin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreDePersonnes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreDePersonnes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UtilisateurId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UtilisateurId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ChambreId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ChambreId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nom)
+        </dt>
+
+        
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index", new { id = Model.UtilisateurId }, new { @class = "btn btn-default"})
+        </div>
+    }
+</div>

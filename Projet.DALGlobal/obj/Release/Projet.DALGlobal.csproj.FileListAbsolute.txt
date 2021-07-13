@@ -1,0 +1,8 @@
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\bin\Release\Projet.DALGlobal.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\bin\Release\Projet.DALGlobal.pdb
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\bin\Release\ToolBox.ADO.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\bin\Release\ToolBox.ADO.pdb
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\obj\Release\Projet.DALGlobal.csprojAssemblyReference.cache
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\obj\Release\Projet.DALGlobal.csproj.CopyComplete
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\obj\Release\Projet.DALGlobal.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\obj\Release\Projet.DALGlobal.pdb

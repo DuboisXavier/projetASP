@@ -1,0 +1,6 @@
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\bin\Debug\Database.Projet.dacpac
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\bin\Debug\Database.Projet.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\bin\Debug\Database.Projet.pdb
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\obj\Debug\Database.Projet.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\obj\Debug\Database.Projet.pdb
+C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\obj\Debug\Database.Projet.sqlprojAssemblyReference.cache

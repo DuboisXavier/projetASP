@@ -1,0 +1,41 @@
+﻿@using ProjetASP.MVC.Infrasctucture
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <h1>OneClick</h1>
+
+    <img src="~/Images/accueil.jpg" alt="Sample Photo" />
+    <h2>Envie de voyager?</h2>
+
+</div>
+
+
+
+
+<div>
+    <class ="row">
+        <div class="col-md-4">
+            <h2>Hôtels</h2>
+
+            <p><a class="btn btn-default" href="http://localhost:52148/Hotel">voir les hôtels &raquo;</a></p>
+
+
+            @if (SessionManager.UtilisateurDetails != null)
+            {
+                <h2>Réservations</h2>
+                @Html.ActionLink("voir mes réservations", "../reservation/index", new { id = SessionManager.UtilisateurDetails.Id }, new { @class ="reserv"})
+            }
+         
+        </div>
+
+</div>
+<div>
+    <class ="row">
+        <div class="col-md-4">
+            <h2>FAQ</h2>
+
+            <p><a class="btn btn-default" href="http://localhost:52148/home/FAQ">Questions fréquentes &raquo;</a></p>
+        </div>
+</div>

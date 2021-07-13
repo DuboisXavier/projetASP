@@ -1,0 +1,87 @@
+﻿@using ProjetASP.MVC.Infrasctucture
+
+@model IEnumerable<ProjetASP.MVC.Models.HotelListItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@if (SessionManager.UtilisateurDetails != null)
+{
+    if (SessionManager.IsAdmin)
+    {
+        <p>
+            @Html.ActionLink("Créer un nouvel Hôtel", "Create")
+        </p>
+    }
+}
+<table class="table">
+    <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nom)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NombreEtoile)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.Ville)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Pays)
+                </th>
+                <th>
+                    @Html.DisplayName("Details")
+                </th>
+                @if (SessionManager.UtilisateurDetails != null)
+                {
+                    if (SessionManager.IsAdmin)
+                    {
+                        <th>
+                            @Html.DisplayName("Créer une nouvelle chambre")
+                        </th>
+                    }
+                }
+    </tr>
+
+@foreach (var item in Model)
+    {
+    <tr>
+              <td>
+                        @*<p><a class="btn btn-default" href="@("http://localhost:52148/Chambre/Index/" + item.Id)" >@Html.DisplayFor(modelItem => item.Nom)</a></p>*@
+                        @Html.ActionLink(item.Nom, "Index", "Chambre", new { id = item.Id }, new { @class = "btn btn-default" })
+              </td>
+              <td>
+                        @Html.DisplayFor(modelItem => item.NombreEtoile)
+              </td>
+
+              <td>
+                        @Html.DisplayFor(modelItem => item.Ville)
+              </td>
+              <td>
+                        @Html.DisplayFor(modelItem => item.Pays)
+              </td>
+              <td>
+                  @Html.ActionLink("Details", "Details", new { id = item.Id })
+              </td>
+
+
+              <td>
+                        @if (SessionManager.UtilisateurDetails != null)
+                        {
+                            if (SessionManager.IsAdmin)
+                            {
+                                @Html.ActionLink(item.Nom, "Create", "Chambre", new { id = item.Id }, new { @class = "btn btn-default" })
+                                @Html.ActionLink("Edit", "Edit", new { id = item.Id });
+                                @Html.ActionLink("Details", "Details", new { id = item.Id });
+                                @Html.ActionLink("Delete", "Delete", new { id = item.Id });
+                            }
+                        }
+
+              </td>
+    </tr>
+    }
+           
+
+</table>

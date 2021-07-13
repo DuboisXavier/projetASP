@@ -1,0 +1,9 @@
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\bin\Debug\Projet.DALGlobal.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\bin\Debug\Projet.DALGlobal.pdb
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\bin\Debug\ToolBox.ADO.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\bin\Debug\ToolBox.ADO.pdb
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\obj\Debug\Projet.DALGlobal.csprojAssemblyReference.cache
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\obj\Debug\Projet.DALGlobal.csproj.CopyComplete
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\obj\Debug\Projet.DALGlobal.dll
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\obj\Debug\Projet.DALGlobal.pdb
+C:\Users\hilys\source\repos\ProjetAsp.Database\Projet.DALGlobal\obj\Debug\Projet.DALGlobal.csproj.CoreCompileInputs.cache

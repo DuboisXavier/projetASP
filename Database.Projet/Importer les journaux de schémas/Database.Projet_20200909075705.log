@@ -1,0 +1,86 @@
+09-09-20 09:57:05	Ce journal contient des informations sur l'importation du schéma dans le projet 'Database.Projet' sur l'ordinateur 'DESKTOP-NG53FCH' par l'utilisateur 'hilys'.
+09-09-20 09:57:05	L'importation du schéma de base de données a commencé.
+09-09-20 09:57:11	Collecte des informations d'identification à la base de données
+09-09-20 09:57:11	Collecte des options de la base de données
+09-09-20 09:57:11	Collecte de l'option de configuration étendue à la base de données générique
+09-09-20 09:57:11	Collecte des utilisateurs
+09-09-20 09:57:11	Collecte des rôles
+09-09-20 09:57:11	Collecte des rôles d'application
+09-09-20 09:57:11	Collecte des appartenances aux rôles
+09-09-20 09:57:11	Collecte des groupes de fichiers
+09-09-20 09:57:11	Collecte des catalogues de recherche en texte intégral
+09-09-20 09:57:11	Collecte des assemblys
+09-09-20 09:57:11	Collecte des certificats
+09-09-20 09:57:11	Collecte des clés asymétriques
+09-09-20 09:57:11	Collecte des clés symétriques
+09-09-20 09:57:11	Collecte des clés symétriques chiffrées
+09-09-20 09:57:11	Collecte des schémas
+09-09-20 09:57:11	Collecte des collections de schémas XML
+09-09-20 09:57:11	Collecte des types de données définis par l'utilisateur
+09-09-20 09:57:11	Collecte des types définis par l'utilisateur
+09-09-20 09:57:11	Collecte des types de tables
+09-09-20 09:57:11	Collecte des clés uniques des types de tables
+09-09-20 09:57:11	Collecte des clés primaires pour les types de tables
+09-09-20 09:57:11	Collecte d'index pour types de tables
+09-09-20 09:57:11	Collecte des contraintes de validation pour les types de tables
+09-09-20 09:57:11	Collecte des contraintes par défaut pour les types de tables
+09-09-20 09:57:11	Collecte des fonctions de partition
+09-09-20 09:57:11	Collecte des schémas de partition
+09-09-20 09:57:11	Collecte des fonctions
+09-09-20 09:57:11	Collecte de fonctions cryptées
+09-09-20 09:57:11	Collecte des agrégats
+09-09-20 09:57:11	Collecte des procédures
+09-09-20 09:57:11	Collecte de procédures cryptées
+09-09-20 09:57:11	Collecte des tables
+09-09-20 09:57:11	Collecte des clés primaires
+09-09-20 09:57:11	Collecte des contraintes uniques
+09-09-20 09:57:11	Collecte des clés étrangères
+09-09-20 09:57:11	Collecte des contraintes par défaut
+09-09-20 09:57:11	Collecte des contraintes de validation
+09-09-20 09:57:11	Collecte des vues
+09-09-20 09:57:11	Collecte de vues cryptées
+09-09-20 09:57:12	Collecte des index
+09-09-20 09:57:12	Collecte des statistiques
+09-09-20 09:57:12	Collecte des listes de mots vides d'index de recherche en texte intégral
+09-09-20 09:57:12	Collecte des listes de propriétés de recherche
+09-09-20 09:57:12	Collecte des propriétés de recherche
+09-09-20 09:57:12	Collecte des index de recherche en texte intégral
+09-09-20 09:57:12	Collecte des index de la banque de colonnes
+09-09-20 09:57:12	Collecte des index spatiaux
+09-09-20 09:57:12	Collecte des index XML
+09-09-20 09:57:12	Collecte d'index XML sélectifs
+09-09-20 09:57:12	Collecte de déclencheurs cryptés
+09-09-20 09:57:12	Collecte des déclencheurs
+09-09-20 09:57:12	Collecte des déclencheurs chiffrés et DDL CLR
+09-09-20 09:57:12	Collecte des DDL triggers
+09-09-20 09:57:12	Création de contraintes d'arête
+09-09-20 09:57:12	Collecte des synonymes
+09-09-20 09:57:12	Collecte des valeurs par défaut
+09-09-20 09:57:12	Collecte des liaisons UDDT de contrainte de données
+09-09-20 09:57:12	Collecte des règles
+09-09-20 09:57:12	Collecte des liaisons UDDT de contrainte de données
+09-09-20 09:57:12	Collecte des types de messages
+09-09-20 09:57:12	Collecte des files d'attente
+09-09-20 09:57:12	Collecte des contrats
+09-09-20 09:57:12	Collecte des services
+09-09-20 09:57:12	Collecte des notifications d'événements
+09-09-20 09:57:12	Collecte des liaisons de service distant
+09-09-20 09:57:12	Collecte des priorités de Service Broker
+09-09-20 09:57:12	Collecte des signatures
+09-09-20 09:57:12	Collection des options de compression de données
+09-09-20 09:57:12	Collecte des types de séquences
+09-09-20 09:57:12	Collecte des stratégies de sécurité
+09-09-20 09:57:12	Collecter les clés de chiffrement de colonne
+09-09-20 09:57:12	Collecte des clés principales de colonne
+09-09-20 09:57:12	Collecte des sources de données externes
+09-09-20 09:57:12	Collecte des formats de fichier externes
+09-09-20 09:57:12	Collecte des tables externes
+09-09-20 09:57:12	Collection des propriétés étendues
+09-09-20 09:57:12	Collecte des informations d'identification
+09-09-20 09:57:12	Collecte des connexions
+09-09-20 09:57:12	Collecte des audits du serveur
+09-09-20 09:57:13	Analyse du projet à la recherche des éléments en double
+09-09-20 09:57:13	Fin du traitement des éléments en double
+09-09-20 09:57:13	Importation de la base de données terminée.
+09-09-20 09:57:13	Un résumé de l'opération d'importation a été enregistré à l'emplacement suivant : C:\Users\hilys\source\repos\ProjetAsp.Database\Database.Projet\Importer les journaux de schémas\Database.Projet_20200909075705.log.
+09-09-20 09:57:13	Cliquez sur Terminer pour continuer...
